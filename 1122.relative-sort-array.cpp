@@ -48,6 +48,7 @@ public:
 
     vector<int> sortReulst1(vector<int>& result1) {
         //排序
+        //fixme: 优化，使用快排来增加速度
         int len = result1.size();
         for (int i = 0; i < len; i++) {
             for (int j = 0; j < len; j++) {
